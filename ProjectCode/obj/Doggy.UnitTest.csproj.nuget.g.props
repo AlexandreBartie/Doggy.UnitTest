@@ -13,4 +13,14 @@
     <SourceRoot Include="C:\Users\barti\.nuget\packages\" />
     <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
   </ItemGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Content Include="$(NuGetPackageRoot)katty.library\1.0.9\contentFiles\any\net6.0\Katty.ico" Condition="Exists('$(NuGetPackageRoot)katty.library\1.0.9\contentFiles\any\net6.0\Katty.ico')">
+      <NuGetPackageId>Katty.Library</NuGetPackageId>
+      <NuGetPackageVersion>1.0.9</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Katty.ico</Link>
+    </Content>
+  </ItemGroup>
 </Project>

@@ -2,6 +2,26 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "Katty.Library/1.0.9": {
+        "type": "package",
+        "dependencies": {
+          "MSTest.TestFramework": "2.2.10",
+          "System.Data.SqlClient": "4.8.3"
+        },
+        "compile": {
+          "lib/net6.0/Katty.Library.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Katty.Library.dll": {}
+        },
+        "contentFiles": {
+          "contentFiles/any/net6.0/Katty.ico": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Microsoft.NETCore.Platforms/3.1.0": {
         "type": "package",
         "compile": {
@@ -43,7 +63,7 @@
           "lib/net5.0/Microsoft.VisualStudio.TestPlatform.TestFramework.dll": {}
         },
         "build": {
-          "build/net5.0/MSTest.TestFramework.targets": {}
+          "build/net5.0/_._": {}
         }
       },
       "runtime.native.System.Data.SqlClient.sni/4.7.0": {
@@ -146,6 +166,21 @@
     }
   },
   "libraries": {
+    "Katty.Library/1.0.9": {
+      "sha512": "AQY8sGVbIdurKTBQvYObGUhnM0VbVqC6BKwFtDCipSl1sp4PNXxAZLTcUI2ZmiCcSp6LvaHZLw8q/S6nXyl13A==",
+      "type": "package",
+      "path": "katty.library/1.0.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Katty.png",
+        "content/Katty.ico",
+        "contentFiles/any/net6.0/Katty.ico",
+        "katty.library.1.0.9.nupkg.sha512",
+        "katty.library.nuspec",
+        "lib/net6.0/Katty.Library.dll"
+      ]
+    },
     "Microsoft.NETCore.Platforms/3.1.0": {
       "sha512": "z7aeg8oHln2CuNulfhiLYxCVMPEwBl3rzicjvIX+4sUuCwvXw5oXQEtbiU2c0z4qYL5L3Kmx0mMA/+t/SbY67w==",
       "type": "package",
@@ -597,8 +632,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "MSTest.TestFramework >= 2.2.10",
-      "System.Data.SqlClient >= 4.8.3"
+      "Katty.Library >= 1.0.9"
     ]
   },
   "packageFolders": {
@@ -606,10 +640,10 @@
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
-    "version": "1.0.8",
+    "version": "1.0.0",
     "restore": {
       "projectUniqueName": "C:\\DEVOPS\\FRAMEWORK\\DOGGY\\Doggy.UnitTest\\ProjectCode\\Doggy.UnitTest.csproj",
-      "projectName": "Katty.Library",
+      "projectName": "Doggy.UnitTest",
       "projectPath": "C:\\DEVOPS\\FRAMEWORK\\DOGGY\\Doggy.UnitTest\\ProjectCode\\Doggy.UnitTest.csproj",
       "packagesPath": "C:\\Users\\barti\\.nuget\\packages\\",
       "outputPath": "C:\\DEVOPS\\FRAMEWORK\\DOGGY\\Doggy.UnitTest\\ProjectCode\\obj\\",
@@ -645,13 +679,9 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
-          "MSTest.TestFramework": {
+          "Katty.Library": {
             "target": "Package",
-            "version": "[2.2.10, )"
-          },
-          "System.Data.SqlClient": {
-            "target": "Package",
-            "version": "[4.8.3, )"
+            "version": "[1.0.9, )"
           }
         },
         "imports": [

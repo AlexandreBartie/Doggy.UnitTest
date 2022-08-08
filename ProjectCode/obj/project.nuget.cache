@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "tH/7PkUNJ52/e/lqTT8WSN+V2sgW+ZdShGEkPqAlRLMNGJSV93JXQqrzJ01hCWT34iw8bq4ELUyzWnsPjzXXPg==",
+  "dgSpecHash": "JfOQ7w8Uk2KO9p4D6DiJ1YCKzULo17lzp27w/L0EHUYtOyvYSSi5eZB/36HdQxvGf1CO8vwdCDkGLgLZMBJqIA==",
   "success": true,
   "projectFilePath": "C:\\DEVOPS\\FRAMEWORK\\DOGGY\\Doggy.UnitTest\\ProjectCode\\Doggy.UnitTest.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\barti\\.nuget\\packages\\katty.library\\1.0.9\\katty.library.1.0.9.nupkg.sha512",
     "C:\\Users\\barti\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\barti\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\barti\\.nuget\\packages\\mstest.testframework\\2.2.10\\mstest.testframework.2.2.10.nupkg.sha512",
