@@ -1,0 +1,45 @@
+﻿<Project Sdk="Microsoft.NET.Sdk"> 
+ 
+  <PropertyGroup> 
+    <OutputType>Library</OutputType> 
+    <TargetFramework>net6.0</TargetFramework>
+ 
+    <Title>Doggy UNIT TESTING</Title> 
+    <Product>Doggy.UnitTest</Product> 
+    <Description>Doggy.UnitTest is a part of Dooggy FRAMEWORK.</Description> 
+ 
+    <AssemblyName>Doggy.UnitTest</AssemblyName> 
+    <RootNamespace></RootNamespace> 
+    <PackageIcon>Doggy.jpg</PackageIcon> 
+    <Version>1.0.0</Version> 
+ 
+    <License>MIT</License> 
+    <PackageLicenseExpression>MIT</PackageLicenseExpression> 
+    <PackageDescription>Powerfull Unit Testing Framework base by MSTest.TestFramework.</PackageDescription> 
+    <PackageTags>Encrypt</PackageTags> 
+ 
+    <Authors>Alexandre Bartie</Authors> 
+    <Company>bartie.devops</Company> 
+    <RepositoryUrl>https://github.com/AlexandreBartie/Katty.Library</RepositoryUrl> 
+    <PackageProjectUrl>https://github.com/users/AlexandreBartie/projects/1</PackageProjectUrl> 
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild> 
+    <ApplicationIcon>Doggy.ico</ApplicationIcon> 
+ 
+  </PropertyGroup> 
+ 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'"> 
+    <DefineConstants>TRACE</DefineConstants> 
+  </PropertyGroup> 
+ 
+  <ItemGroup> 
+    <PackageReference Include="MSTest.TestFramework" Version="2.2.10" /> 
+  </ItemGroup> 
+ 
+  <ItemGroup> 
+    <None Update="Doggy.jpg"> 
+      <Pack>True</Pack> 
+      <PackagePath>\</PackagePath> 
+    </None> 
+  </ItemGroup> 
+ 
+</Project>
