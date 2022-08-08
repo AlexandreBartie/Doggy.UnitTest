@@ -2,17 +2,14 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>BlueRocket.CORE.QA</RootNamespace>
 
     <IsPackable>false</IsPackable>
 
     <StartupObject></StartupObject>
 
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
 
-    <ApplicationIcon>Rocket.ico</ApplicationIcon>
-
-    <OutputType>WinExe</OutputType>
+    <OutputType>Library</OutputType>
 
     <RunAnalyzersDuringBuild>false</RunAnalyzersDuringBuild>
   </PropertyGroup>
