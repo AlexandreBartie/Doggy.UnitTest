@@ -11,11 +11,11 @@
     <AssemblyName>Doggy.UnitTest</AssemblyName> 
     <RootNamespace></RootNamespace> 
     <PackageIcon>Doggy.jpg</PackageIcon> 
-    <Version>1.0.0</Version> 
+    <Version>1.0.1</Version> 
  
     <License>MIT</License> 
     <PackageLicenseExpression>MIT</PackageLicenseExpression> 
-    <PackageDescription>Powerfull Unit Testing Framework base by MSTest.TestFramework.</PackageDescription> 
+    <PackageDescription>Powerfull Unit Testing Framework based on MSTest.TestFramework.</PackageDescription> 
     <PackageTags>Encrypt</PackageTags> 
  
     <Authors>Alexandre Bartie</Authors> 
@@ -31,8 +31,13 @@
     <DefineConstants>TRACE</DefineConstants> 
   </PropertyGroup> 
  
+  <ItemGroup>
+    <Content Remove="C:\Users\barti\.nuget\packages\katty.library\1.0.9\contentFiles\any\net6.0\Katty.ico" />
+  </ItemGroup> 
+ 
   <ItemGroup> 
     <PackageReference Include="Katty.Library" Version="1.0.9" /> 
+    <PackageReference Include="MSTest.TestAdapter" Version="2.2.10" /> 
   </ItemGroup> 
  
   <ItemGroup> 
